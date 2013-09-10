@@ -1,0 +1,69 @@
+/*----------------------------------- Template categories2.tpl ---------------------------*/
+
+/*------------------------- 2 - Spalten Layout -------------------------------------*/
+
+#top
+{
+	height: 			6px;
+	width: 				1000px;
+	padding: 			0px;
+	margin:				0px;
+	background-image:	url(../img/top-2-spalten.gif);
+	background-repeat:	no-repeat;
+	overflow:			hidden;
+}
+		 
+#bottom
+{
+	width: 				1000px;
+	height: 			6px;
+	background-image:	url(../img/bottom-2-spalten.gif);
+	background-repeat:	no-repeat;
+	overflow:			hidden;
+}
+
+#rumpf
+{
+	width: 1000px;
+	background-image:	url(../img/bg-2-spalten.gif);
+	background-repeat:	repeat-y;
+}
+
+#contentwrapper
+{
+	float: left;
+	width: 100%;
+}
+
+#rechtespalte
+{
+	margin-left: 236px;
+	padding-right: 230px;
+}
+
+#linkespalte
+{
+	float: left;
+	width: 236px;
+	margin-left: -1000px;
+}
+
+.innen
+{
+	margin: 10px;
+}
+.innen_content 
+{
+	margin: 10px 25px 10px 25px;
+}
+				 
+#linkespalte a
+{
+	/*background-image: url(../img/linkpfeil.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 10px;
+    font-size:			96%;*/
+	font-size: 12px;
+	display:	block;
+}
