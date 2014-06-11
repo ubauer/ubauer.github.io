@@ -96,94 +96,16 @@
 <tr>
 <td>
 <div align="center">
-<img src="img/delaunay-teaser.svgz" width="140" alt="delaunay" style="text-align: center; border: 0px solid;">
+<img src="img/kolmogorov-teaser.svgz" width="140" alt="kolmogorov" style="text-align: center; border: 0px solid;">
 </div></td>
-<td><strong>The Morse theory of Čech and Delaunay filtrations
+<td><strong>Persistent Homology meets Statistical Inference - A Case Study: Detecting Modes of One-Dimensional Signals
 </strong><br>
-Ulrich Bauer and Herbert Edelsbrunner. Preprint, accepted to SoCG 2014.
+Ulrich Bauer, Axel Munk, Hannes Sieling, and Max Wardetzky. Preprint, 2014.
 <br>
 <small> 
 <b>Abstract:</b> 
-Given a finite set of points in ℝⁿ and a positive radius, we consider the Čech, Delaunay-Čech, alpha, and wrap complexes as examples of a generalized discrete Morse theory. We prove that the latter three are simple-homotopy equivalent, and the same is true for their weighted versions. Our results have applications in topological data analysis and in the reconstruction of shapes from sampled data.<br>
-<a target="_blank" href="http://arxiv.org/abs/1312.1231">[arXiv]</a>
-
-</small>
-<br>
-</td>
-</tr>
-
-
-
-<!-- new entry -->
-<tr>
-<td>
-<div align="center">
-<img src="img/matching-barcodes-teaser.svgz" width="140" alt="induced-matchings" style="text-align: center; border: 0px solid;">
-</div></td>
-<td><strong>Induced Matchings of Barcodes and the Algebraic Stability of Persistence
-</strong><br>
-Ulrich Bauer and Michael Lesnick. Preprint, accepted to SoCG 2014.  Invited to special issue of Journal of Computational Geometry.
-<br>
-<small> 
-<b>Abstract:</b> 
-We define a simple, explicit map sending a morphism f: M → N of pointwise finite dimensional persistence modules to a matching between the barcodes of M and N. Our main result is that, in a precise sense, the quality of this matching is tightly controlled by the lengths of the longest intervals in the barcodes of ker f and coker f.
-As an immediate corollary, we obtain a new proof of the algebraic stability of persistence, a fundamental result in the theory of persistent homology. In contrast to previous proofs, ours shows explicitly how a δ-interleaving morphism between two persistence modules induces a δ-matching between the barcodes of the two modules. Our main result also specializes to a structure theorem for submodules and quotients of persistence modules.
-<br>
-<a target="_blank" href="http://arxiv.org/abs/1311.3681">[arXiv]</a>
-
-</small>
-<br>
-</td>
-</tr>
-
-
-
-<!-- new entry -->
-<tr>
-<td>
-<div align="center">
-<img src="img/reeb-teaser.svgz" width="140" alt="reeb-graph" style="text-align: center; border: 0px solid;">
-</div></td>
-<td><strong>Measuring Distance between Reeb Graphs</strong><br>
-Ulrich Bauer, Xiaoyin Ge, and Yusu Wang. Preprint, accepted to SoCG 2014.
-<br>
-<small> 
-<b>Abstract:</b> 
-<!--
-One of the prevailing ideas in geometric and topological data analysis is to provide descriptors that encode useful information about hidden objects from observed data. The Reeb graph is one such descriptor for a given scalar function. The Reeb graph provides a simple yet meaningful abstraction of the input domain, and can also be computed efficiently.
-<br>
-Given the popularity of the Reeb graph in applications, it is important to understand its stability and robustness with respect to changes in the input function, as well as to be able to compare the Reeb graphs resulting from different functions.
-<br>
-In this paper, w
--->
-We propose a metric for Reeb graphs, called the functional distortion distance. Under this distance measure, the Reeb graph is stable against small changes of input functions. At the same time, it remains discriminative at differentiating input functions. In particular, the main result is that the functional distortion distance between two Reeb graphs is bounded from below by (and thus more discriminative than) the bottleneck distance between both the ordinary and extended persistence diagrams for appropriate dimensions.
-<br>
-As an application of our results, we analyze a natural simplification scheme for Reeb graphs, and show that persistent features in Reeb graph remains persistent under simplification. Understanding the stability of important features of the Reeb graph under simplification is an interesting problem on its own right, and critical to the practical usage of Reeb graphs.
-<br>
-<a target="_blank" href="http://arxiv.org/abs/1307.2839">[arXiv]</a>
-
-</small>
-<br>
-</td>
-</tr>
-
-
-
-<!-- new entry -->
-<tr>
-<td>
-<div align="center">
-<img src="img/chunk-teaser.svgz" width="140" alt="chunks" style="text-align: center; border: 0px solid;">
-</div></td>
-<td><strong>Clear and Compress: Computing Persistent Homology in Chunks</strong><br>
-Ulrich Bauer, Michael Kerber, and Jan Reininghaus,
-presented at TopoInVis 2013 (Best paper award). To appear.
-<br>
-<small> 
-<b>Abstract:</b> 
-We present a parallelizable algorithm for computing the persistent homology of a filtered chain complex. Our approach differs from the commonly used reduction algorithm by first computing persistence pairs within local chunks, then simplifying the unpaired columns, and finally applying standard reduction on the simplified matrix. The approach generalizes a technique by G&uuml;nther et al., which uses discrete Morse Theory to compute persistence; we derive the same worst-case complexity bound in a more general context. The algorithm employs several practical optimization techniques which are of independent interest. Our sequential implementation of the algorithm is competitive with state-of-the-art methods, and we improve the performance through parallelized computation.
-<br>
-<a target="_blank" href="http://arxiv.org/abs/1303.0477">[arXiv]</a>
+We investigate the problem of estimating persistent homology of noisy one dimensional signals. We relate this to the problem of estimating the number of modes (i.e., local maxima) – a well known question in statistical inference -- and we show how to do so without presmoothing the data. To this end, we extend the ideas of persistent homology by working with norms different from the (classical) supremum norm. As a particular case we investigate the so called Kolmogorov norm. We argue that this extension has certain statistical advantages. We offer confidence bands for the attendant Kolmogorov signatures, thereby allowing for the selection of relevant signatures with a statistically controllable error. As a result of independent interest, we show that so-called taut strings minimize the number of critical points for a very general class of functions. We illustrate our results by several numerical examples.<br>
+<a target="_blank" href="http://arxiv.org/abs/1404.1214">[arXiv]</a>
 
 </small>
 <br>
@@ -209,6 +131,106 @@ We present a parallelizable algorithm for computing the persistent homology of a
     <col>
   </colgroup>
 <tbody>
+
+
+
+<!-- new entry -->
+<tr>
+<td>
+<div align="center">
+<img src="img/delaunay-teaser.svgz" width="140" alt="delaunay" style="text-align: center; border: 0px solid;">
+</div></td>
+<td><strong>The Morse theory of Čech and Delaunay filtrations
+</strong><br>
+Ulrich Bauer and Herbert Edelsbrunner. SoCG '14 Proceedings of the twenty-ninth annual symposium on Computational geometry (2014), 484–490.
+<br>
+<small> 
+<b>Abstract:</b> 
+Given a finite set of points in ℝⁿ and a positive radius, we consider the Čech, Delaunay–Čech, alpha, and wrap complexes as examples of a generalized discrete Morse theory. We prove that the latter three are simple-homotopy equivalent, and the same is true for their weighted versions. Our results have applications in topological data analysis and in the reconstruction of shapes from sampled data.<br>
+<a target="_blank" href="http://dx.doi.org/10.1145/2582112.2582167">[doi]</a>
+<a target="_blank" href="http://arxiv.org/abs/1312.1231">[arXiv]</a>
+
+</small>
+<br>
+</td>
+</tr>
+
+
+
+<!-- new entry -->
+<tr>
+<td>
+<div align="center">
+<img src="img/matching-barcodes-teaser.svgz" width="140" alt="induced-matchings" style="text-align: center; border: 0px solid;">
+</div></td>
+<td><strong>Induced Matchings of Barcodes and the Algebraic Stability of Persistence
+</strong><br>
+Ulrich Bauer and Michael Lesnick. SoCG '14 Proceedings of the twenty-ninth annual symposium on Computational geometry (2014), 355–364.  Invited to special issue of Journal of Computational Geometry.
+<br>
+<small> 
+<b>Abstract:</b> 
+We define a simple, explicit map sending a morphism f: M → N of pointwise finite dimensional persistence modules to a matching between the barcodes of M and N. Our main result is that, in a precise sense, the quality of this matching is tightly controlled by the lengths of the longest intervals in the barcodes of ker f and coker f.
+As an immediate corollary, we obtain a new proof of the algebraic stability of persistence, a fundamental result in the theory of persistent homology. In contrast to previous proofs, ours shows explicitly how a δ-interleaving morphism between two persistence modules induces a δ-matching between the barcodes of the two modules. Our main result also specializes to a structure theorem for submodules and quotients of persistence modules.
+<br>
+<a target="_blank" href="http://dx.doi.org/10.1145/2582112.2582168">[doi]</a>
+<a target="_blank" href="http://arxiv.org/abs/1311.3681">[arXiv]</a>
+
+</small>
+<br>
+</td>
+</tr>
+
+
+
+<!-- new entry -->
+<tr>
+<td>
+<div align="center">
+<img src="img/reeb-teaser.svgz" width="140" alt="reeb-graph" style="text-align: center; border: 0px solid;">
+</div></td>
+<td><strong>Measuring Distance between Reeb Graphs</strong><br>
+Ulrich Bauer, Xiaoyin Ge, and Yusu Wang. SoCG '14 Proceedings of the twenty-ninth annual symposium on Computational geometry (2014), 464–473.
+<br>
+<small> 
+<b>Abstract:</b> 
+We propose a metric for Reeb graphs, called the functional distortion distance. Under this distance measure, the Reeb graph is stable against small changes of input functions. At the same time, it remains discriminative at differentiating input functions. In particular, the main result is that the functional distortion distance between two Reeb graphs is bounded from below by (and thus more discriminative than) the bottleneck distance between both the ordinary and extended persistence diagrams for appropriate dimensions.
+<br>
+As an application of our results, we analyze a natural simplification scheme for Reeb graphs, and show that persistent features in Reeb graph remains persistent under simplification. Understanding the stability of important features of the Reeb graph under simplification is an interesting problem on its own right, and critical to the practical usage of Reeb graphs.
+<br>
+<a target="_blank" href="http://dx.doi.org/10.1145/2582112.2582169">[doi]</a>
+<a target="_blank" href="http://arxiv.org/abs/1307.2839">[arXiv]</a>
+
+</small>
+<br>
+</td>
+</tr>
+
+
+
+<!-- new entry -->
+<tr>
+<td>
+<div align="center">
+<img src="img/chunk-teaser.svgz" width="140" alt="chunks" style="text-align: center; border: 0px solid;">
+</div></td>
+<td><strong>Clear and Compress: Computing Persistent Homology in Chunks</strong><br>
+Ulrich Bauer, Michael Kerber, and Jan Reininghaus,
+Topological Methods in Data Analysis and Visualization III
+Mathematics and Visualization 2014, 103&ndash;117.
+<br>
+<small> 
+<b>Abstract:</b> 
+We present a parallelizable algorithm for computing the persistent homology of a filtered chain complex. Our approach differs from the commonly used reduction algorithm by first computing persistence pairs within local chunks, then simplifying the unpaired columns, and finally applying standard reduction on the simplified matrix. The approach generalizes a technique by G&uuml;nther et al., which uses discrete Morse Theory to compute persistence; we derive the same worst-case complexity bound in a more general context. The algorithm employs several practical optimization techniques which are of independent interest. Our sequential implementation of the algorithm is competitive with state-of-the-art methods, and we improve the performance through parallelized computation.
+<br>
+<a target="_blank" href="http://dx.doi.org/10.1007/978-3-319-04099-8_7">[doi]</a>
+<a target="_blank" href="http://arxiv.org/abs/1303.0477">[arXiv]</a>
+
+</small>
+<br>
+</td>
+</tr>
+
+
 
 <!-- new entry -->
 <tr>
@@ -314,7 +336,7 @@ We present an efficient algorithm for computing a function that minimizes the nu
 </td>
 <td><strong>Total Variation Meets Topological Persistence: A First Encounter</strong><br>
 Ulrich Bauer, Carola-Bibiane Schönlieb, and Max Wardetzky.
-Proceedings of ICNAAM 2010, pp. 1022-1026.<br>
+Proceedings of ICNAAM 2010, 1022–1026.<br>
 <small> 
 <b>Abstract:</b> We present first insights into the relation between two popular yet apparently dissimilar approaches to denoising
 of one dimensional signals, based on (i) total variation (TV) minimization and (ii) ideas from topological persistence. While a
@@ -370,7 +392,7 @@ Computer-Aided Design 41 (2009), 719&ndash;729.
 <small> 
 <br>
 Conference version: Parametric Reconstruction of Bent Tube Surfaces,
-Proceedings NASAGEM/Cyberworlds 2007, pp. 465&ndash;474. <a target="_blank" href="pub/bauer-ParametricReconstruction.pdf"><small>[pdf]</small></a> <a target="_blank" href="http://dx.doi.org/10.1109/CW.2007.59"><small>[doi]</small></a>
+Proceedings NASAGEM/Cyberworlds 2007, 465&ndash;474. <a target="_blank" href="pub/bauer-ParametricReconstruction.pdf"><small>[pdf]</small></a> <a target="_blank" href="http://dx.doi.org/10.1109/CW.2007.59"><small>[doi]</small></a>
 <br>
 
 <b>Abstract:</b> We present a method for parametric reconstruction of a piecewise defined pipe surface, consisting of cylinder and torus segments, from an unorganized point set. Our main contributions are reconstruction of the spine curve of a pipe surface from surface samples, and approximation of the spine curve by <i>G&sup1;</i> continuous circular arcs and line segments. Our algorithm accurately outputs the parametric data required for bending machines to create the reconstructed tube.
