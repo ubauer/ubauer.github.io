@@ -121,6 +121,7 @@
 
 
 
+<!-- 
 <span>
 <b>Preprints</b>
 </span>
@@ -135,64 +136,7 @@
 
 
 
-<!-- new entry -->
-<tr>
-<td>
-<div align="center">
-<img src="img/reeb-universal-teaser.svg" width="128" alt="kolmogorov" style="text-align: center; border: 0px solid;">
-</div></td>
-<td><strong>The Reeb Graph Edit Distance is Universal
-</strong><br>
-Ulrich Bauer, Claudia Landi, and Facundo Mémoli.
-<br>
-<small> 
-<b>Abstract:</b> 
-We consider the setting of Reeb graphs of piecewise linear functions and study distances 
-between them that are stable, meaning that functions which are similar in the supremum 
-norm ought to have similar Reeb graphs. We define an edit distance for Reeb graphs and 
-prove that it is stable and universal, meaning that it provides an upper bound to any other 
-stable distance. In contrast, via a specific construction, we show that the interleaving 
-distance and the functional distortion distance on Reeb graphs are not universal.
-<br>
-<a target="_blank" href="http://arxiv.org/abs/1801.01866">[arXiv]</a>
-</small>
-<br>
-</td>
-</tr>
-
-
-
-<!-- new entry -->
-<tr>
-<td>
-<div align="center">
-<img src="img/morse-approx-teaser.crop.svg" width="128" alt="kolmogorov" style="text-align: center; border: 0px solid;">
-</div></td>
-<td><strong>Hardness of Approximation for Morse Matching
-</strong><br>
-Ulrich Bauer and Abhishek Rathod.
-<br>
-<small> 
-<b>Abstract:</b> 
-We consider the approximability of maximization and minimization variants of the Morse 
-matching problem, posed as open problems by Joswig and Pfetsch. We establish hardness 
-results for Max-Morse matching and Min-Morse matching. In particular, we show that, for a 
-simplicial complex with n simplices and dimension $ d\leq 3$, it is NP-hard to approximate 
-Min-Morse matching within a factor of $ O (n^{1-\epsilon}) $, for any $\epsilon> 0$. 
-Moreover, using an L-reduction from Degree 3 Max-Acyclic Subgraph to Max-Morse 
-matching, we show that it is both NP-hard and UGC-hard to approximate Max-Morse 
-matching for simplicial complexes of dimension $ d\leq 2$ within certain explicit constant 
-factors.
-<br>
-<a target="_blank" href="http://arxiv.org/abs/1801.08380">[arXiv]</a>
-</small>
-<br>
-</td>
-</tr>
-
-
-
-<!-- new entry -->
+<!-- new entry ->
 <tr>
 <td>
 <div align="center">
@@ -219,7 +163,7 @@ kth Betti number of such complexes to the persistent setting.
 
 
 
-<!-- new entry -->
+<!-- new entry ->
 <tr>
 <td>
 <div align="center">
@@ -247,41 +191,10 @@ get fast algorithms.
 
 
 
-<!-- new entry -->
-<tr>
-<td>
-<div align="center">
-<img src="img/matching-teaser.svg" width="128" alt="matching" style="text-align: center; border: 0px solid;">
-</div></td>
-<td><strong>Persistence Diagrams as Diagrams: A Categorification of the Stability Theorem
-</strong><br>
-Ulrich Bauer and Michael Lesnick.
-<br>
-<small> 
-<b>Abstract:</b> 
-Persistent homology, a central tool of topological data analysis, provides invariants of data 
-called barcodes (also known as persistence diagrams). A barcode is simply a multiset of real 
-intervals. Recent work of Edelsbrunner, Jablonski, and Mrozek suggests an equivalent 
-description of barcodes as functors R-> Mch, where R is the poset category of real numbers 
-and Mch is the category whose objects are sets and whose morphisms are matchings (ie, 
-partial injective functions). Such functors form a category Mch^ R whose morphisms are the 
-natural transformations. Thus, this interpretation of barcodes gives us a hitherto unstudied 
-categorical structure on barcodes. The aim of this note is to show that this categorical 
-structure leads to surprisingly simple reformulations of both the well-known stability theorem 
-for persistent homology and a recent generalization called the induced matching theorem.
-<br>
-<a target="_blank" href="http://arxiv.org/abs/1610.10085">[arXiv]</a>
-</small>
-<br>
-</td>
-</tr>
-
-
-
 </table>
 
 <br><br>
-
+<!-- end preprints -->
 
 <span>
 <b>Software</b>
@@ -306,7 +219,7 @@ for persistent homology and a recent generalization called the induced matching 
 </div></td>
 <td><strong>Ripser: a lean C++ code for the computation of Vietoris–Rips persistence barcodes
 </strong><br>
-Ulrich Bauer (2015–2018). Licensed under LGPL.
+Ulrich Bauer (2015–2021). Licensed under MIT license.
 <br>
 <small> 
 <b>Description:</b> 
@@ -315,7 +228,7 @@ Ripser is a lean C++ code for the computation of Vietoris–Rips persistence bar
 The implementation is based on an implicit algorithmic representation of the coboundary operator and of the filtration order, avoiding the explicit construction of the filtration boundary matrix.
 Our software shows significant improvements over existing software both in time and memory usage.
 <p>
-The source code consists of less than 1000 lines of C++ code.
+The source code consists of around 1000 lines of C++ code.
 It supports for coefficients in prime finite fields and sparse distance matrices for computing the Vietoris–Rips persistence barcodes only up to a specified threshold.
 No external dependencies are required.
 <p>
@@ -357,7 +270,7 @@ PHAT is an open-source C++ library for the computation of persistent homology by
 
 
 <span>
-<b>Publications</b>
+<b>Selected Publications</b> <a target="_blank" href="https://scholar.google.de/citations?hl=de&user=cMGWaM8AAAAJ&sortby=pubdate">[all publications]</a>
 </span>
 
 
@@ -368,6 +281,145 @@ PHAT is an open-source C++ library for the computation of persistent homology by
     <col>
   </colgroup>
 <tbody>
+
+
+
+<!-- new entry -->
+<tr>
+<td>
+<div align="center">
+<img src="img/reeb-universal-teaser.svg" width="128" alt="kolmogorov" style="text-align: center; border: 0px solid;">
+</div></td>
+<td><strong>The Reeb Graph Edit Distance is Universal
+</strong><br>
+Ulrich Bauer, Claudia Landi, and Facundo Mémoli.
+Foundations of Computational Mathematics 21 (2021), 1441–1464.
+<br>
+<small> 
+<b>Abstract:</b> 
+We consider the setting of Reeb graphs of piecewise linear functions and study distances 
+between them that are stable, meaning that functions which are similar in the supremum 
+norm ought to have similar Reeb graphs. We define an edit distance for Reeb graphs and 
+prove that it is stable and universal, meaning that it provides an upper bound to any other 
+stable distance. In contrast, via a specific construction, we show that the interleaving 
+distance and the functional distortion distance on Reeb graphs are not universal.
+<br>
+<a target="_blank" href="http://arxiv.org/abs/1801.01866">[arXiv]</a>
+</small>
+<br>
+</td>
+</tr>
+
+
+
+<!-- new entry -->
+<tr>
+<td>
+<div align="center">
+<img src="img/ripser-teaser.svg" width="128" alt="delaunay" style="text-align: center; border: 0px solid;">
+</div></td>
+<td><strong>Ripser: a lean C++ code for the computation of Vietoris–Rips persistence barcodes
+</strong><br>
+Ulrich Bauer.
+Journal of Applied and Computational Topology 5 (2021), 391–423.
+<br>
+<small> 
+<b>Abstract:</b> 
+We present an algorithm for the computation of Vietoris–Rips persistence barcodes and describe its implementation in the software Ripser. The method relies on implicit representations of the coboundary operator and the filtration order of the simplices, avoiding the explicit construction and storage of the filtration coboundary matrix. Moreover, it makes use of apparent pairs, a simple but powerful method for constructing a discrete gradient field from a total order on the simplices of a simplicial complex, which is also of independent interest. Our implementation shows substantial improvements over previous software both in time and memory usage.<br>
+<a target="_blank" href="http://doi.org/10.1007/s41468-021-00071-5">[doi]</a>
+<a target="_blank" href="https://arxiv.org/abs/1908.02518">[arxiv]</a>
+</small>
+<br>
+</td>
+</tr>
+
+
+
+<!-- new entry -->
+<tr>
+<td>
+<div align="center">
+<img src="img/clusters.svg" width="128" alt="matching" style="text-align: center; border: 0px solid;">
+</div></td>
+<td><strong>Cotorsion torsion triples and the representation theory of filtered hierarchical clustering
+</strong><br>
+Ulrich Bauer, Magnus B Botnan, Steffen Oppermann, Johan Steen.
+Advances in Mathematics 369 (2020), 67–96.
+<br>
+<small> 
+<b>Abstract:</b> 
+We give a full classification of representation types of the subcategories of representations of an m×n rectangular grid with monomorphisms (dually, epimorphisms) in one or both directions, which appear naturally in the context of clustering as two-parameter persistent homology in degree zero. We show that these subcategories are equivalent to the category of all representations of a smaller grid, modulo a finite number of indecomposables. This equivalence is constructed from a certain cotorsion torsion triple, which is obtained from a tilting subcategory generated by said indecomposables.
+<br>
+<a target="_blank" href="http://doi.org/10.1016/j.aim.2020.107171">[doi]</a>
+<a target="_blank" href="https://arxiv.org/abs/1904.07322">[arXiv]</a>
+</small>
+<br>
+</td>
+</tr>
+
+
+
+<!-- new entry -->
+<tr>
+<td>
+<div align="center">
+<img src="img/matching-teaser.svg" width="128" alt="matching" style="text-align: center; border: 0px solid;">
+</div></td>
+<td><strong>Persistence Diagrams as Diagrams: A Categorification of the Stability Theorem
+</strong><br>
+Ulrich Bauer and Michael Lesnick.
+Topological Data Analysis. Abel Symposia, vol 15. Springer (2020), 67–96.
+<br>
+<small> 
+<b>Abstract:</b> 
+Persistent homology, a central tool of topological data analysis, provides invariants of data 
+called barcodes (also known as persistence diagrams). A barcode is simply a multiset of real 
+intervals. Recent work of Edelsbrunner, Jablonski, and Mrozek suggests an equivalent 
+description of barcodes as functors R-> Mch, where R is the poset category of real numbers 
+and Mch is the category whose objects are sets and whose morphisms are matchings (ie, 
+partial injective functions). Such functors form a category Mch^ R whose morphisms are the 
+natural transformations. Thus, this interpretation of barcodes gives us a hitherto unstudied 
+categorical structure on barcodes. The aim of this note is to show that this categorical 
+structure leads to surprisingly simple reformulations of both the well-known stability theorem 
+for persistent homology and a recent generalization called the induced matching theorem.
+<br>
+<a target="_blank" href="http://arxiv.org/abs/1610.10085">[arXiv]</a>
+</small>
+<br>
+</td>
+</tr>
+
+
+
+<!-- new entry -->
+<tr>
+<td>
+<div align="center">
+<img src="img/morse-approx-teaser.crop.svg" width="128" alt="kolmogorov" style="text-align: center; border: 0px solid;">
+</div></td>
+<td><strong>Hardness of Approximation for Morse Matching
+</strong><br>
+Ulrich Bauer and Abhishek Rathod.
+SODA '19: Proceedings of the 30th ACM-SIAM Symposium on Discrete Algorithms (2019), 2663-2774.
+<br>
+<small> 
+<b>Abstract:</b> 
+We consider the approximability of maximization and minimization variants of the Morse 
+matching problem, posed as open problems by Joswig and Pfetsch. We establish hardness 
+results for Max-Morse matching and Min-Morse matching. In particular, we show that, for a 
+simplicial complex with n simplices and dimension $ d\leq 3$, it is NP-hard to approximate 
+Min-Morse matching within a factor of $ O (n^{1-\epsilon}) $, for any $\epsilon> 0$. 
+Moreover, using an L-reduction from Degree 3 Max-Acyclic Subgraph to Max-Morse 
+matching, we show that it is both NP-hard and UGC-hard to approximate Max-Morse 
+matching for simplicial complexes of dimension $ d\leq 2$ within certain explicit constant 
+factors.
+<br>
+<a target="_blank" href="http://doi.org/10.1137/1.9781611975482.165">[doi]</a>
+<a target="_blank" href="http://arxiv.org/abs/1801.08380">[arXiv]</a>
+</small>
+<br>
+</td>
+</tr>
 
 
 
@@ -450,7 +502,7 @@ Phat is an open-source C++ library for the computation of persistent homology by
 
 
 
-<!-- new entry -->
+<!-- new entry ->
 <tr>
 <td>
 <div align="center">
@@ -470,6 +522,7 @@ We consider the problem of assessing the similarity of 3D shapes using Reeb grap
 <br>
 </td>
 </tr>
+<!-- -->
 
 
 
@@ -505,7 +558,7 @@ As an immediate corollary, we obtain a new proof of the algebraic stability of p
 
 
 
-<!-- new entry -->
+<!-- new entry ->
 <tr>
 <td>
 <div align="center">
@@ -532,10 +585,11 @@ approach that is based on the recently introduced persistence landscapes.
 <br>
 </td>
 </tr>
+<!-- -->
 
 
 
-<!-- new entry -->
+<!-- new entry ->
 <tr>
 <td>
 <div align="center">
@@ -556,6 +610,7 @@ The Reeb graph is a construction that studies a topological space through the le
 <br>
 </td>
 </tr>
+<!-- -->
 
 
 
@@ -749,7 +804,7 @@ Whereas (discrete) Morse theory makes statements about the homotopy type of the 
 
 
 
-<!-- new entry -->
+<!-- new entry ->
 <tr>
 <td>
 <div align="center">
